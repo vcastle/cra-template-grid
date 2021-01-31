@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+
+  //.header__text
+  &__text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+
+    @media (max-width: 768px) {
+      font-size: 25px;
+    }
+  }
+
+  //.header__img
+  &__img {
+    width: 50px;
+  }
+}
